@@ -13,3 +13,21 @@ import time
 import csv
 ##For checking file existance withing system
 
+#########################################################################################################
+
+def PDFgen():
+    c = canvas.Canvas('{}'.format(), pagesize = letter)##Set format to be a file name with Path
+
+
+##Meta information
+    c.setAuthor()
+    c.setTitle()
+    c.setCreator()
+    c.setSubject()
+    c.setKeywords()
+    
+
+##Global Variables for font, font size, fill color, and stroke color
+
+    def Font(ftype,fsize):
+        font = c.setFont(ftype,fsize)
