@@ -12,6 +12,8 @@ import time
 ##For reading csv files
 import csv
 ##For checking file existance withing system
+import os
+
 
 #########################################################################################################
 
